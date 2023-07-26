@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+  - story: greet and teach Python basics
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: install python
+    steps:
+      - intent: install_python
+      - action: utter_install_python
+
+  - story: ask about basics of python
+    steps:
+      - intent: ask_python_basics
+      - action: utter_ask_python_basics
+
+  - story: ask about variables
+    steps:
+      - intent: ask_variables
+      - action: utter_ask_variables
+
+  - story: ask about data types
+    steps:
+      - intent: ask_data_types
+      - action: utter_ask_data_types
+
+  - story: ask about operators
+    steps:
+      - intent: ask_operators
+      - action: utter_ask_operators
+
+  - story: ask about comments
+    steps:
+      - intent: ask_comments
+      - action: utter_ask_comments
+
+  - story: ask about control flow statements
+    steps:
+      - intent: ask_control_flow_statements
+      - action: utter_ask_control_flow_statements
+
+  - story: ask about loops
+    steps:
+      - intent: ask_loops
+      - action: utter_ask_loops
+
+  - story: ask about functions
+    steps:
+      - intent: ask_functions
+      - action: utter_ask_functions
+  # Add more stories for other Python concepts here

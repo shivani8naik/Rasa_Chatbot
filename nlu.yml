@@ -1,0 +1,92 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good bye
+    - cee you later
+    - good night
+    - bye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: ask_python_basics
+  examples: |
+    - basics of python
+    - python basics
+    - basics
+    - what is python
+    - python programming language
+    - python language
+
+- intent: ask_variables
+  examples: |
+    - variables
+    - what are variables
+    - python variables
+    - tell about variables
+    
+- intent: ask_data_types
+  examples: |
+    - data types
+    - what are data types
+    - python data types
+    - tell about data types
+    - data types in python
+    
+- intent: ask_operators
+  examples: |
+    - operators
+    - what are operators
+    - python operators
+    - tell about operators
+    -
+    
+- intent: ask_control_flow_statements
+  examples: |
+    - control flow statements
+    - flow statements
+    - what are control flow statements
+    - python flow statements
+    - tell about control flow statements
+    
+- intent: ask_loops
+  examples: |
+    - loops
+    - what are loops
+    - python loops
+    - tell about loops
+    - loops in python
+    - explain loops
+    
+- intent: ask_functions
+  examples: |
+    - functions
+    - what are functions
+    - functions in python 
+    - tell about functions
+    - explain functions
+
+- intent: install_python
+  examples: |
+    - install
+    - installation
+    - install python
+    - python installation
+
+- intent: ask_comments
+  examples: |
+    - comments
+    - what are comments
+    - python comments

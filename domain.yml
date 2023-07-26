@@ -1,0 +1,66 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - ask_python_basics
+  - ask_variables
+  - ask_data_types
+  - ask_operators
+  - ask_comments
+  - ask_control_flow_statements
+  - ask_loops
+  - ask_functions
+  - install_python
+  # Add more Python-related intents here
+
+responses:
+  utter_greet:
+    - text: "Hello! \nI'm your Python programming tutor. \nWhat can I teach you today?"
+
+  utter_install_python:
+    - text: "To use Python, you need to install it on your computer. \nYou can download the latest version from the official website (https://www.python.org/) and follow the installation instructions for your operating system.\n"
+
+  utter_goodbye:
+    - text: "These basics should give you a good starting point to explore Python further and dive into more advanced concepts and libraries as you progress in your programming journey. \nHappy coding!"
+
+  utter_ask_python_basics:
+    - text: "Sure! Python is a popular programming language known for its simplicity and versatility. \nIt's great for beginners to learn. \nHere are some basics we can cover: installation, variables, data types, operators, control flow statements, loops and functions. \nWhat would you like to start with?"
+
+  utter_ask_variables:
+    - text: "In Python, variables are used to store data.\n You can assign values to variables like this: `variable_name = value`. \nFor example, `name = 'John'`. \nVariables need not be declared first in python. They can be used directly. \nVariables in python are case-sensitive as most of the other programming languages.\n"
+
+  utter_ask_data_types:
+    - text: "Python supports several built-in data types, including integers, floats, strings, booleans, lists, tuples, and dictionaries.\nPython has several built-in data types, including:\nIntegers: int (e.g., 5, -10) \nFloating-Point Numbers: float (e.g., 3.14, -2.71) \nBooleans: bool (e.g., True, False)"
+
+  utter_ask_operators:
+    - text: "Python supports a variety of operators, including arithmetic operators (+, -, *, /), comparison operators (>, <, ==, !=), and logical operators (and, or, not).\n"
+
+  utter_ask_comments:
+    - text: "Comments are used to add explanatory notes to your code. In Python, comments start with the # symbol.\n"
+
+  utter_ask_control_flow_statements:
+    - text: "Python supports several control flow statements, including if-else statements, for loops, and while loops. \nThese statements allow you to control the flow of execution in your code.\n"
+
+  utter_ask_loops:
+    - text: "Loops in Python allow you to repeat a block of code multiple times. \nThe two main types are 'for' and 'while' loops. \nFor example, a 'for' loop can be used to iterate over a list of items.\n"
+
+  utter_ask_functions:
+    - text: "In Python, functions are created using the def keyword. \nFor example, def my_function(x): creates a function called my_function that takes one argument called x.\n"
+  # Add more responses for other Python concepts here
+
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_python_basics
+  - utter_ask_variables
+  - utter_ask_data_types
+  - utter_ask_operators
+  - utter_ask_comments
+  - utter_ask_control_flow_statements
+  - utter_ask_loops
+  - utter_ask_functions
+  - action_teach_python_concept
+  # Add more custom actions here
